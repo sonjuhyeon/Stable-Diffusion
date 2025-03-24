@@ -51,9 +51,9 @@ http://localhost:8000/generate?prompt=a cute anime girl with white hair
 ```bash
 .
 ├── app
+│   ├── img/                 # 생성된 이미지 저장 폴더(FastAPI)
 │   ├── main.py              # FastAPI 엔드포인트
 │   └── generator.py         # 이미지 생성 로직
-├── img/                     # 생성된 이미지 저장 폴더
 ├── requirements.txt         # 필요한 패키지 목록
 └── README.md
 ```
