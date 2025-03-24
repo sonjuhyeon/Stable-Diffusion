@@ -1,7 +1,8 @@
 .DS_Store
 
 # 이미지 생성 디렉토리
-/img
+img
 
-# 파이썬 가상환경 디렉토리
+# 파이썬 가상환경 디렉토리 및 캐시
 /stable_diffusion
+/app/__pycache__
